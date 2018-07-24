@@ -68,6 +68,9 @@ body {
 .section-courses {
   padding: 10%; }
 
+.section-footer {
+  padding: 0; }
+
 .Navigation {
   width: 100%;
   height: 10rem;
@@ -79,6 +82,31 @@ body {
     align-items: center; }
     .Navigation__logo-box__logo {
       height: 3.5rem; }
+
+.Footer__about {
+  padding: 10rem 10%;
+  background-color: #171a24; }
+
+.Footer__section h4 {
+  color: #f7f7f7;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem; }
+
+.Footer__section a {
+  text-decoration: none;
+  color: #777;
+  font-size: 1.3rem; }
+
+.Footer__copyright {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #15171e;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 .buttons, .buttons:link, .buttons:visited {
   text-transform: uppercase;
