@@ -4,7 +4,8 @@
   "description": "Front-End Developer test for SRAX",
   "main": "app.j",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "compile:sass": "node-sass src/scss/main.scss serc/css/main.css -w"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.9.2"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
