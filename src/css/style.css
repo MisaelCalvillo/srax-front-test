@@ -41,17 +41,29 @@ body {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.7; }
+  font-weight: 400; }
 
 .section-start {
   background-image: url("./../../assets/background/banner.png");
   background-size: cover;
   background-position: top;
-  height: 50rem;
+  padding: 20rem 10%;
+  height: max-content;
   width: 100%;
-  display: flex;
-  align-items: center; }
+  color: #fff; }
+  .section-start h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 900;
+    margin-bottom: 3rem; }
+  .section-start h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700; }
+  .section-start p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 3rem; }
 
 .Navigation {
   width: 100%;
@@ -64,3 +76,51 @@ body {
     align-items: center; }
     .Navigation__logo-box__logo {
       height: 3.5rem; }
+
+.buttons, .buttons:link, .buttons:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 0;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #ee0000;
+  border: none;
+  cursor: pointer; }
+
+.buttons:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .buttons:hover::after {
+    transform: scaleX(1.5) scaleY(1.6);
+    opacity: 0; }
+
+.buttons:active, .buttons:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.buttons--white {
+  background-color: #fff;
+  color: #777; }
+  .buttons--white::after {
+    background-color: #fff; }
+
+.buttons::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .5s; }
+
+.buttons--animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }
