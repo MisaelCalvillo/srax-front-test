@@ -47,7 +47,7 @@ body {
   background-image: url("./../../assets/background/banner.png");
   background-size: cover;
   background-position: top;
-  padding: 20rem 10%;
+  padding: 15rem 10%;
   height: max-content;
   width: 100%;
   color: #fff; }
@@ -64,6 +64,9 @@ body {
     font-size: 1.7rem;
     font-weight: 300;
     margin-bottom: 3rem; }
+
+.section-courses {
+  padding: 10%; }
 
 .Navigation {
   width: 100%;
