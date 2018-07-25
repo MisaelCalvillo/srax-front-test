@@ -95,7 +95,7 @@ body {
   font-size: 1.7rem;
   font-weight: 400;
   color: #999;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
 
 .Footer__about {
   padding: 10rem 10%;
@@ -177,7 +177,9 @@ body {
 .card {
   -webkit-box-shadow: 0px 0px 42px -11px rgba(0, 0, 0, 0.39);
   -moz-box-shadow: 0px 0px 42px -11px rgba(0, 0, 0, 0.39);
-  box-shadow: 0px 0px 42px -11px rgba(0, 0, 0, 0.39); }
+  box-shadow: 0px 0px 42px -11px rgba(0, 0, 0, 0.39);
+  margin: 3rem 0;
+  min-height: 50rem; }
   .card-body {
     padding: 3rem;
     display: flex;
