@@ -39,6 +39,11 @@
       }
   }
 
+  &--small {
+      padding: 1rem 2.5rem !important;
+      position: relative;
+  }
+
   &::after {
       content: "";
       display: inline-block;
